@@ -5,7 +5,7 @@ function dimention() {
   let height = window.innerHeight;
   
   let dimensionsDiv = document.getElementById('container');
-  dimensionsDiv.innerText = "Width: " + width + ", Height: " + height;
+  dimensionsDiv.innerText = "Width: " + width +" and " +" Height: " + height;
   
 }
 window.addEventListener('resize', dimention);
